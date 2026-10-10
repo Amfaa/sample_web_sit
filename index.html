@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Static Website</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #333;
+        }
+
+        header {
+            background: #2563eb;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background: #1e40af;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 40px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px #0001;
+            text-align: center;
+        }
+
+        h2 {
+            color: #2563eb;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 22px;
+            margin-top: 15px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background: #1e40af;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 18px;
+            background: #1f2937;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to My Website V.1</h1>
+        <p>A simple static website built with HTML and CSS</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#about">About</a>
+        <a href="error.html">Error Page</a>
+    </nav>
+
+    <main class="container">
+        <h2>Home</h2>
+
+        <p>
+            Welcome to my sample static website!
+            This page is created using HTML and CSS only.
+        </p>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>
+                This is a demonstration website for learning
+                basic web development and static website hosting.
+            </p>
+        </section>
+
+        <a class="button" href="error.html">Visit Error Page</a>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Static Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
